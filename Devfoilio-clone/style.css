@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.home-bg{
+    background-image: url(./assests/image/hom-bg.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    background-attachment: fixed;
+    
+}
+.comp-name{
+    color: white;
+    font-size: 30px;
+    margin: 0px 0px 0px 121px;
+    top: 15px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+.nav-bar{
+    position: sticky;
+    height: 60px;
+}
+.nav-list{
+    color: white;
+    margin: 0px;
+    position: absolute;
+    left: 50%;
+    top: 21px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-item{
+    display: inline-block;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+.nav-drop{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: none;
+    outline: none;
+    border: 0px solid;
+    font-size: 16px;
+    cursor: pointer;
+}
+.nav-drop:hover{
+    text-decoration: underline;
+}
+.nav-option{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+.nav-menubar{
+    display: block;
+    position: relative;
+    font-size: 38px;
+    color: white;
+    right: 397px;
+    bottom: 32px;
+    text-align: center;
+}
+.container{
+    top: 60px;
+    position: relative;
+}
+.home-head-1{
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3.5px;
+}
+.home-head-2{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+/* -----about-us------*/
+
+.about-us{
+    height: 855px;
+    background: whitesmoke;
+}
+.about-data{
+    height: 720px;
+    width: 1030px;
+    background: white;
+    position: relative;
+    margin: 20px 201px;
+}
+.box-1{
+    height: 620px;
+    width: 460px;
+    background: white;
+    position: relative;
+    display: inline-block;
+    margin: 50px 20px;
+}
+.left{
+    height: 150px;
+    width: 150px;
+    background: white;
+    position: relative;
+    display: inline-block;
+}
+.about-pic{
+    height: fit-content;
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+.right{
+    height: 150px;
+    width: 300px;
+    background: white;
+    position: relative;
+    display: inline-block;
+}
+.aboutpara{
+    margin: 10px;
+}
+.per-info{
+    margin: 10px 20px;
+}
+.info-label{
+    font-size: 21px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.info-det{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 0px;
+}
+.skills{
+    height: 400px;
+    width: 450px;
+    background-color: white;
+    padding: 25px;
+    margin: 12px 0px 0px 0px;
+}
+.skill-head{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.skill-list{
+    margin: 28px;
+}
+.skill-name{
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+}
+.skill-bar{
+    height: 15px;
+    width: 330px;
+    background-color: #d8d3d3;
+    margin: 10px 0px 10px 0px;
+}
+.value{
+    height: 15px;
+    width: 85%;
+    background-color: blue;
+}
+.value-2{
+    height: 15px;
+    width: 75%;
+    background-color: blue;
+}
+.value-3{
+    height: 15px;
+    width: 50%;
+    background-color: blue;
+}
+.value-4{
+    height: 15px;
+    width: 90%;
+    background-color: blue;
+}
+.box-2{
+    height: 620px;
+    width: 460px;
+    background: white;
+    position: relative;
+    display: inline-block;
+    margin: 50px 20px;
+}
+.about-head{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+.about-para{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin: 40px 0px;
+}
+
+/* -----about-us------*/
+
+/* -----services------*/
+
+.services{
+    height: 900px;
+    background-color: white;
+}
+.servi-intro{
+    text-align: center;
+}
+.ser-head{
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 900;
+}
+.ser-para{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 0px;
+}
+.servi-box{
+    height: 750px;
+    width: 1120px;
+    background-color: whitesmoke;
+    margin: 20px 111px;
+}
+.serv-box1, .serv-box2, .serv-box3 {
+    height: 340px;
+    width: 342px;
+    background: white;
+    position: relative;
+    display: inline-block;
+    margin: 10px 13px;
+    cursor: pointer;
+}
+.box-logo{
+    text-align: center;
+    top: 32px;
+    position: relative;
+    
+}
+.serv-icon{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    background: white;
+    border-radius: 60px;
+    padding: 30px;
+    box-shadow: 0px 0px 1px 9px #0078ff;
+}
+.box-info{
+    position: relative;
+    top: 60px;
+}
+.box-head{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.box-para{
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.serv-icon:hover{
+    color: white;
+    background-color: #0078ff;
+    box-shadow: 0px 0px 1px 9px #a6b5c7;
+}
+/* -----services------*/
+
+/* media query(320px-480px)*/
+@media(min-width:320px) and (max-width:480px) {
+    .home-nav{
+        height: 1151px;
+        width: 1225px;
+    }
+    .comp-name{
+        font-size: 60px;
+    position: relative;
+    top: 57px;
+    }
+    .nav-list{
+        display: none;
+    }
+    .nav-menubar{
+        display: inline-block;
+        color: white;
+        font-size: 68px;
+        text-align: center;
+        position: relative;
+        left: 85%;
+        top: 4px;
+    }
+    .container{
+        position: relative;
+        top: 22%;
+    }
+    .about-us{
+        height: 4330px;
+        width: 1225px;
+        background: white;
+    }
+    .about-data{
+        position: relative;
+        margin: auto;
+        height: 4330px;
+    }
+    .box-1{
+        position: absolute;
+        display: block;
+        height: 2000px;
+        width: 980px;
+    }
+    .left{
+        position: absolute;
+        display: block;
+        height: 500px;
+        width: 500px;
+    }
+    .about-pic{
+        height: 500px;
+        width: 500px;
+    }
+    .right{
+        position: absolute;
+        display: block;
+        top: 600px;
+        width: 950px;
+        height: 330px;
+    }
+    .aboutpara{
+        margin: 45px 0px;
+    }
+    .per-info{
+        position: relative;
+        width: 942px;
+    }
+    .info-label{
+        font-size: 60px;
+    }
+    .info-det{
+        font-size: 60px;
+    }
+    .skills{
+        position: absolute;
+        display: block;
+        top: 1100px;
+        height: 530px;
+        width: 942px;
+    }
+    .skill-head{
+        position: relative;
+        font-size: 62px;
+    }
+    .skill-list{
+        position: relative;
+    }
+    .skill-name{
+        position: relative;
+        font-size: 50px;
+    }
+    .skill-bar{
+        position: relative;
+        height: 40px;
+        width: 830px;
+    }
+    .value, .value-2, .value-3, .value-4{
+        height: 40px;
+    }
+    .box-2{
+        position: absolute;
+        display: block;
+        top: 2100px;
+        width: 980px;
+        height: 2100px;
+    }
+    .about-head{
+        font-size: 90px;
+    }
+    .about-para{
+        font-size: 65px;
+        letter-spacing: 3.25px;
+    }
+
+
+    .services{
+        position: relative;
+        width: 1225px;
+        height: 5950px;
+    }
+    .servi-intro{
+        position: relative;
+
+    }
+    .ser-head{
+        font-size: 90px;
+    }
+    .ser-para{
+        font-size: 53px;
+    }
+    .servi-box{
+        position: relative;
+        margin: 10px 10px 10px 50px;
+        height: 5600px;
+    }
+    .servi-row1{
+        position: relative;
+    }
+    .servi-row2{
+        position: relative;
+    }
+    .serv-box1{
+        position: relative;
+        width: 1119px;
+        height: 820px;
+        margin: 50px 2px;
+    }
+    .serv-box2{
+        position: relative;
+        width: 1119px;
+        height: 820px;
+        margin: 50px 2px;
+    }
+    .serv-box3{
+        position: relative;
+        width: 1119px;
+        height: 820px;
+        margin: 50px 2px;
+    }
+    .serv-icon{
+        height: 186px;
+        width: 186px;
+        border-radius: 94px;
+        font-size: 114px;
+    }
+    .box-head{
+        font-size: 63px;
+        margin: 64px;
+    }
+    .box-para{
+        font-size: 51px;
+    }
+    
+
+}
